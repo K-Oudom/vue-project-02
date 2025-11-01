@@ -1,8 +1,9 @@
 <script>
   import Header from './views/Header.vue';
+  import Footer from './views/Footer.vue';
   export default{
     name:'App',
-    components: {Header},
+    components: {Header,Footer},
     setup(){
 
     },
@@ -12,6 +13,7 @@
 <template>
     <Header />
     <router-view />
+    <Footer />
 </template>
 
 <style scoped></style>
