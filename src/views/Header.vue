@@ -53,7 +53,7 @@
       }
     },
     mounted(){
-      fetch('http://localhost:3000/data/hero.json')
+      fetch('https://portfolio-dm-km.netlify.app/data/hero.json')
         .then((res) => (res.json()))
         .then((json) => (this.data = json))
         .catch((err) => console.log(err.message));
