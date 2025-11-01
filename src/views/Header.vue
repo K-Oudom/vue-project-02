@@ -41,7 +41,7 @@
   </header>
 </template>
 <script>
-//   import('@/assets/js/link');
+  import('@/assets/js/link')
   
   export default {
     data(){
