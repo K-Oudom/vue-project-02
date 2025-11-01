@@ -53,7 +53,7 @@
       }
     },
     mounted(){
-      fetch('https://portfolio-dm-km.netlify.app/data/hero.json')
+      fetch('https://raw.githubusercontent.com/K-Oudom/vue-project-02/refs/heads/master/data/hero.json')
         .then((res) => (res.json()))
         .then((json) => (this.data = json))
         .catch((err) => console.log(err.message));
