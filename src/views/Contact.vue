@@ -1,3 +1,3 @@
 <template>
-    <h1>This is Contact!</h1>
+    <h1 class="text-center">This is Contact!</h1>
 </template>
