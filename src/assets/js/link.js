@@ -6,7 +6,7 @@ $(() => {
         $(this).addClass("active");
     });
 
-    const sections = ['home', 'about', 'resume', 'skill', 'contact'];
+    const sections = ['home', 'm-about', 'm-resume', 'm-skill', 'm-contact'];
     const url = $(location).attr('href');
     const lastPart = url.substring(url.lastIndexOf('/') + 1) || 'home';
     const activeId = sections.includes(lastPart) ? lastPart : 'home';
