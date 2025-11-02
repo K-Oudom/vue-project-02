@@ -291,6 +291,7 @@
       const script = document.createElement('script');
       script.src = "https://unpkg.com/ityped@0.0.10";
       script.onload = () => {
+        console.log("--process--");
         // Wait until the script is loaded, then initialize ityped
         if (window.ityped) {
           window.ityped.init(document.querySelector('.ityped'), {

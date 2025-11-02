@@ -27,10 +27,10 @@
             <a href="/#about" id="m-about"><i class="bi bi-person navicon"></i>About</a>
         </li>
         <li>
-            <a href="/#resume" id="m-resume"><i class="bi bi-file-earmark-text navicon"></i>Resume</a>
+            <a href="/#skills" id="m-skill"><i class="bi bi-briefcase navicon"></i>Skill</a>
         </li>
         <li>
-            <a href="/#skill" id="m-skill"><i class="bi bi-briefcase navicon"></i>Skill</a>
+            <a href="/#resume" id="m-resume"><i class="bi bi-file-earmark-text navicon"></i>Resume</a>
         </li>
         <li>
             <a href="/#contact" id="m-contact"><i class="bi bi-envelope navicon"></i>Contact</a>
