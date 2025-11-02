@@ -6,7 +6,7 @@ $(() => {
         $(this).addClass("active");
     });
 
-    const sections = ['home', 'about', 'resume', 'skill', 'contact'];
+    const sections = ['home', '#about', '#resume', '#skill', '#contact'];
     const url = $(location).attr('href');
     const lastPart = url.substring(url.lastIndexOf('/') + 1) || 'home';
     console.log(lastPart);
